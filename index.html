@@ -3,24 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Quotebook</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>The Quotebook</title>
 </head>
 <body>
-    <header>
-        <h1>Quotebook</h1>
-    </header>
+    <nav class="nav">
+        <div class="nav-content">
+            <a href="#" class="nav-brand">The Quotebook</a>
+            <div class="nav-links">
+                <a href="#" class="nav-brand">Home</a>
+            </div>
+        </div>
+    </nav>
 
-    <main>
-        <section class="quote-section">
-            <h2>Quote of the Day</h2>
-            <p>"The only limit to our realization of tomorrow is our doubts of today." - Franklin D. Roosevelt</p>
-        </section>
-    </main>
+    <div class="container">
+        <div class="card">
+            <header class="header">
+                <h1 class="title">The Quotebook</h1>
+                <p class="subtitle">Est. 2024</p>
+            </header>
+            <main class="content">
+                <h2 class="section-title">Today's Quotables</h2>
+                <div id="quote-feed"></div>
+            </main>
+        </div>
+    </div>
 
-    <footer>
-        <p>&copy; 2024 Quotebook. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-domain">www.thequotebook.com</div>
+            <p class="footer-quote">"I like strong words, they mean something"</p>
+            <p class="footer-author">— Jo March</p>
+        </div>
     </footer>
 </body>
 </html>
