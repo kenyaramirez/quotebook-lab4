@@ -23,6 +23,11 @@ const quotes = [
         text: "Why are you running?",
         author: "Vine man",
         username: "demo"
+    },
+    {
+        text: "Why are you running?",
+        author: "Vine man",
+        username: "demo"
     }
 ];
 
