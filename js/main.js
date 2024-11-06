@@ -29,6 +29,11 @@ const quotes = [
         author: "Vine man",
         username: "demo"
     }
+    {
+        text: "lalala",
+        author: "Janice",
+        username: "demo"
+    }
 ];
 
 function renderQuotes() {
